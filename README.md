@@ -12,7 +12,7 @@
   + DataBase 文件里配置数据库的相关参数
   + GeneralConfig 日志文件记录等级, 以及日志路径等在这里配置
   
-  #### Spider文件夹存放爬虫文件
+  ### Spider文件夹存放爬虫文件
   每个Py文件对应一个爬虫,  目前一共有6个爬虫, 分别爬取6个网站的公开免费代理
   + https://cn-proxy.com/
   + https://free-proxy-list.net/
@@ -22,7 +22,7 @@
   + https://www.xicidaili.com/nn/
   
   可以自己另外增加爬虫, 然后放入Spider文件夹即可
-  #### 编写自己的爬虫
+  ### 编写自己的爬虫
   爬虫需要实现ISpider接口, 位于Interface包.
   需要实现的方法为:
   ```
@@ -51,7 +51,7 @@
   
   speed, lastUpdateTime, weight 因为尚未验证, 所以可以给任意值
   
-  #### 数据库表结构
+  ### 数据库表结构
   目前共两张表, UnVerified, Verified
   
   UnVerified 表(Verified表相同):
