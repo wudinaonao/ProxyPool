@@ -70,6 +70,13 @@
   UNIQUE KEY `md5` (`md5`)
   ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
   ```
+  ## 前端网页
+  
+  我搭建了一个简易前端, Vue+iView+Bootstrap
+  
+  网址:https://www.wenlyuzhao.com/ProxyPool
+  
+  ![siteImage](/img/1.png)
   
   下课了, 准备去吃点东西, 回来再写...
   
